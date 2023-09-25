@@ -1,0 +1,193 @@
+body {
+	background-color: rgb(142, 138, 138);
+	margin: 10px 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+
+.card {
+	background: transparent !important;
+}
+
+#time_quanta {
+	background-color: rgb(216, 212, 212);
+}
+
+.gantt-box {
+	position: relative;
+	border: 3px solid #0d1b06;
+	height: 5px;
+	padding: 50px;
+	text-align: center;
+}
+
+.gantt-box-left {
+	position: absolute;
+	left: 0;
+	margin-left: 3px;
+	bottom: 0;
+}
+
+.gantt-box-right {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-right: 3px;
+}
+
+#time_quanta {
+	width: auto;
+}
+
+#start_btn {
+	background-color: hsl(229, 93%, 60%);
+	transition: opacity 0.15s ease-in-out, color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	color: aliceblue;
+}
+
+#start_btn:hover {
+	opacity: 0.8;
+}
+
+#drop_btn {
+	background-color: hsl(256, 85%, 3%);
+	transition: opacity 0.15s ease-in-out, color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	color: aliceblue;
+}
+
+#drop_btn:hover {
+	opacity: 0.8;
+}
+
+#vis_btn {
+	background-color: hsl(273, 100%, 66%);
+	transition: opacity 0.15s ease-in-out, color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	color: aliceblue;
+}
+
+#vis_btn:hover {
+	opacity: 0.8;
+}
+
+.cpu {
+	background: url('../images/cpu.png') no-repeat;
+	background-size: cover;
+	width: 120px;
+	height: 120px;
+	margin: 20px;
+}
+
+.readyqueue {
+	background: url('../images/fast-time.png') no-repeat;
+	background-size: contain;
+	height: 120px;
+	width: 120px;
+}
+
+
+.fitem {
+	display: flex;
+	/* border: 2px solid #73AD21; */
+	width: 120px;
+	height: 120px;
+	/* margin: 20px; */
+	justify-content: center;
+	align-items: center;
+}
+
+.flexible {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.triangle {
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 4;
+	border-width: 0 80px 80px 0;
+	border-style: solid;
+	background-color: #e6e7e8;
+	display: block;
+	/*border-radius:3px 0 0 0;*/
+	border-color: transparent #fff transparent #fff;
+}
+
+.logo {
+	position: absolute;
+	top: 3px;
+	right: 10px;
+	z-index: 5;
+}
+
+@media only screen and (max-width: 600px) {
+	.triangle {
+		border-width: 0 65px 50px 0;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.triangle {
+		border-width: 0 80px 80px 0;
+	}
+}
+/* Add your CSS styling here as needed */
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ff9900;
+}
+.full{
+    padding: 20px;
+    width: 100%;
+    background-color:rgb(241, 241, 241) ;
+    border-radius: 20px;
+	
+}
+.head{
+	padding: 20px;
+	background-color:rgb(222, 188, 247) ;
+	color: rgb(17, 18, 16);
+	}
